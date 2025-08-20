@@ -1,40 +1,38 @@
-# Proyecto de PredicciÛn de CancelaciÛn de Clientes - Telecom X Parte 2
+# Predicci√≥n de Cancelaci√≥n de Clientes - Telecom X Parte 2
+El objetivo fue desarrollar un sistema para predecir qu√© clientes tienen mayor probabilidad de cancelar sus servicios :chart_with_upwards_trend:, facilitando estrategias de retenci√≥n :shield:.
 
-**Resumen del Proyecto**  
-El objetivo fue desarrollar un sistema para predecir quÈ clientes tienen mayor probabilidad de cancelar sus servicios (`:chart_with_upwards_trend:`), facilitando estrategias de retenciÛn (`:shield:`). El flujo incluyÛ:
-
-- **Limpieza y Preprocesamiento de Datos**: estandarizaciÛn y conversiÛn a formatos numÈricos (`:wastebasket:`).  
-- **Balanceo de Clases**: oversampling para corregir desbalance natural (`:balance_scale:`).  
-- **Modelado y EvaluaciÛn**: entrenamiento de RegresiÛn LogÌstica y Random Forest; evaluaciÛn mediante PrecisiÛn, Recall y F1-Score (`:bar_chart:`).  
-- **An·lisis de Importancia**: identificaciÛn de variables m·s influyentes (`:mag:`).
+- **Limpieza y Preprocesamiento de Datos**: estandarizaci√≥n y conversi√≥n a formatos num√©ricos.  
+- **Balanceo de Clases**: oversampling para corregir desbalance natural.  
+- **Modelado y Evaluaci√≥n**: entrenamiento de Regresi√≥n Log√≠stica y Random Forest; evaluaci√≥n mediante Precisi√≥n, Recall y F1-Score.  
+- **An√°lisis de Importancia**: identificaci√≥n de variables m√°s influyentes .
 
 
-## Factores Clave en la CancelaciÛn de Clientes
+## Factores Clave en la Cancelaci√≥n de Clientes
 
-1. **Tipo de Contrato (`:key:`)**  
-   - Mes a mes (`Contract_Month-to-month`) ? mayor riesgo de cancelaciÛn (`:warning:`).  
-   - Contratos a 1 o 2 aÒos ? mayor retenciÛn (`:lock:`).
+1. **Tipo de Contrato :key:**  
+   - Contract_Month-to-month --> mayor riesgo de cancelaci√≥n.  
+   - Contratos a 1 o 2 a√±os --> mayor retenci√≥n.
 
-2. **Antig¸edad del Cliente (`:hourglass_flowing_sand:`)**  
-   - Mayor tenure ? menor probabilidad de churn (`:arrow_down_small:`).  
-   - Clientes nuevos son los m·s propensos a cancelar (`:exclamation:`).
+2. **Antig√ºedad del Cliente :hourglass_flowing_sand:**  
+   - Mayor tenure --> menor probabilidad de churn.  
+   - Clientes nuevos son los m√°s propensos a cancelar.
 
-3. **Costo y ConfiguraciÛn del Servicio (`:money_with_wings:`)**  
-   - Fibra Ûptica ? mayor cancelaciÛn (`:electric_plug:`).  
-   - MÈtodo de pago con cheque electrÛnico ? riesgo elevado (`:credit_card:`).
+3. **Costo y Configuraci√≥n del Servicio :money_with_wings:**  
+   - Fibra √≥ptica ? mayor cancelaci√≥n.  
+   - M√©todo de pago con cheque electr√≥nico --> riesgo elevado.
 
 
 ## Modelos Utilizados
 
-- **RegresiÛn LogÌstica** (`:straight_ruler:`): interpretable, requiere normalizaciÛn, alto Recall para detectar clientes en riesgo.  
-- **¡rbol de DecisiÛn / Random Forest** (`:deciduous_tree:`): captura relaciones no lineales, reglas claras, buen rendimiento general.
+- **Regresi√≥n Log√≠stica** :straight_ruler: interpretable, requiere normalizaci√≥n, alto Recall para detectar clientes en riesgo.  
+- **√Årbol de Decisi√≥n / Random Forest** :deciduous_tree: captura relaciones no lineales, reglas claras, buen rendimiento general.
 
 
-## ConclusiÛn Final (`:trophy:`)
+## Conclusi√≥n Final :trophy:
 
-La cancelaciÛn de clientes no es aleatoria, sino predecible. Comprender los factores crÌticos y aplicar modelos predictivos permite:
+La cancelaci√≥n de clientes no es aleatoria, sino predecible. Comprender los factores cr√≠ticos y aplicar modelos predictivos permite:
 
-- Identificar clientes en riesgo tempranamente (`:mag_right:`).  
-- Implementar estrategias de retenciÛn efectivas (`:shield:`).  
-- Reducir la tasa de churn y aumentar el valor de vida del cliente (`:moneybag:`).  
+- Identificar clientes en riesgo tempranamente.  
+- Implementar estrategias de retenci√≥n efectivas.  
+- Reducir la tasa de churn y aumentar el valor de vida del cliente.  
 
